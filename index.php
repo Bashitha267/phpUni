@@ -19,7 +19,7 @@ $fruits=[
 </head>
 <body>
 <div >
-    <ul>
+    <!-- <ul>
     <?php 
     foreach($array as $key=>$value){
         echo"<li class=\"name\">Name:{$value['name']}, Age:{$value['Age']}
@@ -27,7 +27,12 @@ $fruits=[
     }
 
 ?>
-    </ul>
+    </ul> -->
+<?php
+$array12=array_unshift($fruits,1);
+
+print_r($fruits);
+?>
 
 </div>  
 </body>
